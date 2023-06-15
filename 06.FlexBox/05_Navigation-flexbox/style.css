@@ -1,0 +1,35 @@
+body {
+    font: 14px/1.5 Verdana, sans-serif;
+    margin: 40px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+header p {
+    font: 1.5em/1.5 Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    display: block;
+    padding: 1em;
+
+}
+
+header nav a {
+    color: rgb(0,153,0);
+    text-decoration: none;
+}
+

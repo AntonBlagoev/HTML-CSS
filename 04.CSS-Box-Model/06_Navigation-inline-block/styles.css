@@ -1,0 +1,30 @@
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+
+nav { 
+    display: inline-block;
+}
+
+nav ul { 
+    display: inline-block;
+}
+
+nav li { 
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+}
+
+nav h1 {
+    display: inline-block;
+}
+
+header{
+    border-bottom: 1px solid;
+    
+}
