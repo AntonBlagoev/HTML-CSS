@@ -1,0 +1,8 @@
+.btn-primary{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: transparent;
+    cursor: pointer;
+}
