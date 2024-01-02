@@ -1,0 +1,87 @@
+@import 'https://use.fontawesome.com/releases/v6.5.1/css/all.css';
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+.grid-item-top {
+    grid-area: top;
+    background-color: white;
+    padding: 60px 60px 0px 60px;
+}
+.grid-item-bottom {
+    grid-area: bottom;
+    background-color: white;
+    padding: 60px 60px 0px 60px;
+}
+.grid-item-right {
+    grid-area: right;
+    background-color: white;
+    padding: 60px 53px 0px 41px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "top right"
+    "bottom right ";
+    width: 1630px;
+    height: 854px;
+    gap: 40px;
+    margin: 60px auto;
+    justify-items: stretch;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+p {
+    color: #595959;
+    font-size: 22px;
+    margin: 30px 50px 60px 0px;
+}
+.grid-item-right > p {
+    margin: 60px 0px 0px 0px;
+    padding-bottom: 180px;
+    border-bottom: 1px solid #d9d9d9;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    color: #595959;
+    font-size: 14px;
+}
+.author-img {
+    width: 240px;
+    height: 240px;
+}
+.author-img > img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.grid-item-right img {
+    margin: 20px 20px 0px 0px;
+    width: 120px;
+    height: 120px;
+    filter: grayscale(100%);
+    border-radius: 50%;
+    object-fit: cover;
+}

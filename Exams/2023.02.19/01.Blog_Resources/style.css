@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://use.fontawesome.com/releases/v6.5.1/css/all.css';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: white;
+    color: #6d5c63;
+    font-size: 12px;
+}
+
+.container {
+    width: 696px;
+    height: 334px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #f5e0b5;
+}
+
+.cards {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;    
+    column-gap: ;
+    padding: 25px 37px;
+
+}
+.card {
+    background-color: #66545e;
+    width: 220px;
+    height: 132px;
+    border: 1px solid #474035;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 0 1.5em 1.2em rgb(0,0,0, 0.2);
+
+}
+.card p {
+    font-weight: 600;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+img {
+    width: 220px;
+    height: 106px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.info {
+    flex: 1 0 auto;
+    font-size: 11px;
+    font-weight: 600;
+    width: 110px;
+    margin-top: 30px;
+    margin-left: -30px;
+    margin-right: 50px;
+    
+}
+
+.info li {
+    text-decoration: none;
+    list-style: none;
+    
+    padding: 6px 0px;
+}
+
